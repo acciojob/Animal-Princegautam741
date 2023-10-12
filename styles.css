@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+/* Your CSS Code here */
+#animal-photos {
+    text-align: center;
+}
+
+#photo-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.animal-photo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.animal-photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
